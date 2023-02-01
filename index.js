@@ -1,6 +1,6 @@
 const io = require("socket.io")(8801, {
     cors: {
-        origin: "http://localhost:3000"
+        origin: "https://chat-appkh.netlify.app"
     }
 })
 
